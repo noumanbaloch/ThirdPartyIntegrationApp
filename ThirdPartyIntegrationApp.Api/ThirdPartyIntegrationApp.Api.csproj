@@ -15,4 +15,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ThirdPartyIntegrationApp.Interfaces\ThirdPartyIntegrationApp.Interfaces.csproj" />
+    <ProjectReference Include="..\ThirdPartyIntegrationApp.Services\ThirdPartyIntegrationApp.Services.csproj" />
+  </ItemGroup>
+
 </Project>

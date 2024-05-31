@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Net.Http.Headers;
 
-namespace ThirdPartyIntegrationApp.Services
+namespace ThirdPartyIntegrationApp.Interfaces
 {
     public interface IApiCallerService
     {

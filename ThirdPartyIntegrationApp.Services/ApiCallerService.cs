@@ -3,9 +3,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Globalization;
 using System.Net.Http.Headers;
-using ThirdPartyIntegrationApp.Services;
+using ThirdPartyIntegrationApp.Interfaces;
 
-namespace ThirdPartyIntegrationApp.Interfaces
+namespace ThirdPartyIntegrationApp.Services
 {
     public abstract class ApiCallerService : IApiCallerService
     {
@@ -645,7 +645,7 @@ namespace ThirdPartyIntegrationApp.Interfaces
 
             return new Dictionary<string, string> { { token.Path, value } };
         }
-           
+
     }
 
 }

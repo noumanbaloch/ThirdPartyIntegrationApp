@@ -1,4 +1,4 @@
-﻿namespace ThirdPartyIntegrationApp.Services
+﻿namespace ThirdPartyIntegrationApp.Interfaces
 {
     public interface IDemoIntegrationService
     {

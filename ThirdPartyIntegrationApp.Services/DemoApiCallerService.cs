@@ -1,6 +1,6 @@
-﻿using ThirdPartyIntegrationApp.Services;
+﻿using ThirdPartyIntegrationApp.Interfaces;
 
-namespace ThirdPartyIntegrationApp.Interfaces
+namespace ThirdPartyIntegrationApp.Services
 {
     public class DemoApiCallerService : ApiCallerService, IDemoApiCallerService
     {
